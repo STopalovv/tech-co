@@ -1,0 +1,42 @@
+.footer {
+    background-color: #e7eff8;
+    border-top: 1px solid #e7eff8;
+    margin-top: 15px;
+}
+
+.footer__container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 15px;
+}
+
+.footer__section > h2 {
+    color: rgb(101, 112, 179);
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.footer__section > p {
+    color: rgb(117, 117, 117);
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.footer__paymentCards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__paymentCards > img {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 1.37em;
+    line-height: 1em;
+}

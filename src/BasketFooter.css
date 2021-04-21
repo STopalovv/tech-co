@@ -1,0 +1,48 @@
+.basketFooter {
+    background-color: white;
+    border-top: 1px solid rgb(179, 176, 176);
+    height: 25vh;
+    margin-top: 50px;
+}
+
+.basketFooter > h4 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: gray;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.basketFooter__container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.basketFooter__item {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.basketFooter__item > div > h5 {
+    font-weight: 500;
+    color: rgb(92, 91, 91);
+}
+
+.basketFooter__item > div > p {
+    font-weight: 400;
+    color: gray;
+    font-size: 13px;
+}
+
+.basketFooter__icon {
+    font-size: 45px !important;
+    color: rgb(92, 91, 91);
+    margin-right: 5px;
+}

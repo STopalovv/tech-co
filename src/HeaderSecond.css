@@ -1,0 +1,15 @@
+.headerSecond {
+    background: linear-gradient(0.25turn, #636464, #282928, #000000);
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(209, 209, 209);
+    height: 40px;
+}
+
+.headerSecond__option {
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    margin-top: auto;
+    margin-bottom: auto;
+}
